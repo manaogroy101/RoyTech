@@ -87,6 +87,8 @@ nav{
 }
 /**navbar ends**/
 
+
+
 /**cards**/
 .theme-text {
   color: #2d3d6c;
@@ -108,6 +110,22 @@ nav{
 }
 
 /**cards ends**/
+
+/**Why choose us**/
+.feature{
+  background-color: #2d3d6c;
+}
+/**Why choose us end**/
+
+.faqs-title{
+  color: #2d3d6c;
+}
+.newsletter{
+  background-color: #2d3d6c;
+}
+.cont-newsletter{
+  border-bottom: 1px solid rgba(256, 256, 256, .1);
+}
 
 /**footer**/
 .footer{
@@ -195,6 +213,7 @@ nav{
 /**footer ends**/
 
 
+/*Navbar responsiveness*/
 @media only screen and (min-width: 900px) {
 
   
