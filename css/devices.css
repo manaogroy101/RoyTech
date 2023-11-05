@@ -104,29 +104,131 @@
   left: 0;
   background-color: rgba(0, 0, 0, 0.55);
 }
-.content-srv{
+.content-dev{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.content-srv h2{
+.content-dev h2{
   font-size: 50px;
   color: #dbe0f0;
   margin-bottom: 20px;
 }
-.content-srv h2 span{
+.content-dev h2 span{
   color: #1f194c;
 }
-.content-srv p{
+.content-dev p{
   font-size: 20px;
   color: white;
   opacity: 0.8;
 }
+.devices{
+  height: 100vh;
+  width: 100%;
+  background-color: #2d3d6c;
+}
 
 /*banner ends*/
 
+/*devices*/
+
+.select-box select {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: #707070;
+  font-size: 1rem;
+}
+
+/*devices end*/
+
+/**footer**/
+.footer{
+  background-color: #2d3d6c;
+  margin: auto;
+}
+
+.footer .brand{
+  text-decoration: none;
+}
+
+.footer .btn.btn-social {
+  margin-right: 5px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255,255,255,.5);
+  border: 1px solid rgba(256, 256, 256, .1);
+  border-radius: 40px;
+  transition: .3s;
+}
+
+.footer .btn.btn-social:hover {
+  color:#2d3d6c;
+}
+
+
+.footer .btn.btn-link {
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+  padding: 0;
+  text-align: left;
+  color: rgba(255,255,255,.5);
+  font-weight: normal;
+  transition: .3s;
+}
+
+.footer .btn.btn-link:hover {
+  color: #FFFFFF;
+}
+
+.footer .btn.btn-link::before {
+  position: relative;
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+  letter-spacing: 1px;
+  box-shadow: none;
+}
+
+.footer .copyright {
+  padding: 25px 0;
+  font-size: 14px;
+  border-top: 1px solid rgba(256, 256, 256, .1);
+}
+
+.footer .copyright a {
+  text-decoration: none;
+  color: rgba(255,255,255,.5);
+}
+
+.footer .copyright a:hover {
+  color: #FFFFFF;
+}
+
+.footer .footer-menu a {
+  text-decoration: none;
+  margin-right: 15px;
+  padding-right: 15px;
+  border-right: 1px solid rgba(255, 255, 255, .1);
+}
+
+.footer .footer-menu a:last-child {
+  margin-right: 0;
+  padding-right: 0;
+  border-right: none;
+}
+/**footer ends**/
 
 
 

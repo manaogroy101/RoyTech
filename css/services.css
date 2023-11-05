@@ -293,7 +293,10 @@ p {
     min-height: 30vh;
   }
   .content-srv h2{
-    font-size: 25px
+    font-size: 30px
+  }
+  .content-srv span{
+    font-size: 30px;
   }
   .content-srv p{
     font-size: 15px;
