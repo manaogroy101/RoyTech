@@ -149,10 +149,10 @@
   background-size: 100% 200%;
   background-position: 0 2.5%;
   border-radius: 5px;
-  box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
   cursor: pointer;
   transition: 0.5s;
 }
+
 h3 {
   font-size: 20px;
   font-weight: 600;
@@ -166,7 +166,7 @@ p {
   letter-spacing: 0.03em;
 }
 .icon-wrapper {
-  background-color: #2c7bfe;
+  background-color: #2d3d6c;
   position: relative;
   margin: auto;
   font-size: 30px;
@@ -181,9 +181,11 @@ p {
 .card:hover h3 {
   color: #2d3d6c;
 }
-.btn{
+#btn{
   place-self: center;
-  width: 200px;
+  width: 150px;
+  background-color: #2d3d6c;
+  color: #dbe0f0;
 }
 
 /**footer**/

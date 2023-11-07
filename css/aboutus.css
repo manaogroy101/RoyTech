@@ -92,10 +92,24 @@
   border: 1px solid transparent;
   transition: .5s;
   box-shadow:  rgba(0, 0, 0, 0.5);
+  
+}
+.team-cont{
+  background-color: #2d3d6c;
+}
+.tech-name{
+  color: #dbe0f0;
+}
+.team-cont a{
+  background-color: #dbe0f0;
+  border-radius: 50%;
+}
+.team-cont a:hover{
+  background-color: #93a3d2;
 }
 
 .team-item:hover {
-  border-color: #2d3d6c;
+  border-color: #93a3d2;
 }
 
 
