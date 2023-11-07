@@ -58,70 +58,74 @@
     <!--Banner End-->
 
   <!--Form Starts-->
-<div class="container mt-5 mb-5">
-  <h2> Message Us </h2>
+  <div class="container d-flex justify-content-center align-items-center min-vh-100 mb-5">
+    <div class="row border rounded p-4 bg-white shadow box-area">
+
+        <div class="col-md-6 rounded-1 d-flex justify-content-center align-items-center flex-column left-box" style="background: #2d3d6c;">
+            <div class="featured-image mb-3">
+                <img src="./res/contactus.svg" class="img-fluid" style="width: 250px;" alt="">
+            </div>
+        </div>
+
+        <div class="col-md-6 right-box">
+
+            <div class="row align-items-center">
+                <div class="header-text mb-2">
+                    <h2>Message Us</h2>
+                </div>
+
+                <form class="needs-validation" action="form.html" novalidate>
+          
+          
+                    <div class="col">
+                      <label for="validationcustom01" class="form-label"></label>
+                      <input type="text" class="form-control" id="validationcustom01" placeholder="First Name" required>
+                        <div class="valid-feedback">Looks Good</div>
+                        <div class="invalid-feedback">Please Input First Name</div>
+                    </div>
   
-            <form class="needs-validation shadow p-5" action="form.html" novalidate>
-              
-              
+                    <div class="col">
+                      <label for="validationcustom01" class="form-label"></label>
+                      <input type="text" class="form-control" id="validationcustom01" placeholder="Last Name" required>
+                        <div class="valid-feedback">Looks Good</div>
+                        <div class="invalid-feedback">Please Input Last Name</div>
+                    </div>
+                
                   <div class="col">
-                    <label for="validationcustom01" class="form-label"> First Name</label>
-                    <input type="text" class="form-control" id="validationcustom01" required>
+                    <label for="validationcustom03" class="form-label"></label>
+                    <input type="email" class="form-control" id="validationcustom03" placeholder="@email" required>
                       <div class="valid-feedback">Looks Good</div>
-                      <div class="invalid-feedback">Please Input First Name</div>
+                      <div class="invalid-feedback">Please Input email</div>
+                  </div>
+  
+                  <div class="col">
+                    <label for="validationcustom06" class="form-label"></label>
+                    <input type="number" class="form-control" id="validationcustom06" placeholder="+63" required>
+                      <div class="valid-feedback">Looks Good</div>
+                      <div class="invalid-feedback">Please Input Phone number</div>
+                  </div>
+  
+                  <div class="col">
+                    <label for="validationcustom07" class="form-label"></label>
+                    <input type="text" class="form-control" id="validationcustom07" placeholder="Address" required>
+                      <div class="valid-feedback">Looks Good</div>
+                      <div class="invalid-feedback">Check your Address</div>
                   </div>
 
                   <div class="col">
-                    <label for="validationcustom01" class="form-label"> Last Name</label>
-                    <input type="text" class="form-control" id="validationcustom01" required>
-                      <div class="valid-feedback">Looks Good</div>
-                      <div class="invalid-feedback">Please Input Last Name</div>
+                    <textarea name="" id="" class="form-control mt-2" placeholder="Write your concern here..."></textarea>
                   </div>
-              
-
-              
-                <div class="col">
-                  <label for="validationcustom03" class="form-label"> @email</label>
-                  <input type="email" class="form-control" id="validationcustom03" required>
-                    <div class="valid-feedback">Looks Good</div>
-                    <div class="invalid-feedback">Please Input email</div>
-                </div>
-
-                <div class="col mb-2">
-                  <label for="validationcustom04" class="form-label">Phone Number</label>
-                  <input type="number" class="form-control" id="validationcustom04" required>
-                    <div class="valid-feedback">Looks Good</div>
-                    <div class="invalid-feedback">Please Input Phone number</div>
-                </div>
-              
-
-                <div class="col mb-2">
-                  <label for="validationcustom05" class="form-label">Address</label>
-                  <input type="number" class="form-control" id="validationcustom05" required>
-                    <div class="valid-feedback">Looks Good</div>
-                    <div class="invalid-feedback">Check your Address</div>
-                </div>
-
-                <div class="col mb-2">
-                  <label for="validationcustom06" class="form-label">Enter Device model / imei /s/n</label>
-                  <input type="number" class="form-control" id="validationcustom06" required>
-                    <div class="valid-feedback">Looks Good</div>
-                    <div class="invalid-feedback">Check your Address</div>
-                </div>
-
-                <div class="col">
-                  <label for="" class="form-label">Write your concern here</label>
-                  <textarea name="" id="" class="form-control" style="height: 100px;"></textarea>
-                </div>
-
-
-                <br>
-                <div class="col">
-                  <button type="submit" class="btn btn-primary">Submit</button>
-                </div>
-
-            </form>
   
+                  <div class="col mt-2">
+                    <button type="submit" class="form-control btn btn-primary">Submit</button>
+                  </div>
+  
+              </form>
+
+            </div>
+        </div>
+
+    </div>
 </div>
   
 
