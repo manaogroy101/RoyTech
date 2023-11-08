@@ -97,4 +97,11 @@ body{
     color: #2d3d6c;
 }
 
-/*Card container*/
+.select-box select {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #707070;
+    font-size: 1rem;
+}

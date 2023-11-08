@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" type="x-icon" href="./res/logo.png">
+    <link rel="stylesheet" href="./css/admin.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
+    
+    <title>RoyTech</title>
+
+</head>
+<body>
+
+    <div class="sidebar">
+        <div class="logo"></div>
+        <ul class="menu">
+
+            <li>
+                <a href="adminsdashboard.html">
+                    <i class="fas fa-message"></i>
+                    <span>Inquiries</span>
+                </a>
+            </li>
+
+            <li class="active">
+                <a href="repair.html">
+                    <i class="fas fa-screwdriver-wrench"></i>
+                    <span>Repair</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="users.html">
+                    <i class="fas fa-user"></i>
+                    <span>Users</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Dashboard</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="">
+                    <i class="fas fa-server"></i>
+                    <span>Stocks</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="">
+                    <i class="fas fa-gear"></i>
+                    <span>Settings</span>
+                </a>
+            </li>
+
+            <li class="logout">
+                <a href="">
+                    <i class="fas fa-right-from-bracket"></i>
+                </a>
+            </li>
+        </ul>
+        
+    </div>
+
+    <div class="main-content">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <span>Welcome Back !</span>
+                <h2> Admin</h2>
+            </div>
+            <div class="user-info">
+            
+                <img src="./res/logo.png" alt="">
+            </div>
+
+        </div>
+
+        <div class="card-container">
+            <h1 class="main-title">On Repair</h1>
+            <div class="form-wrapper">
+                <table class="table table-striped table-hover align-middle caption-top table-responsive">
+                    <caption>
+                        <a href="repair.html"><button class="btn btn-success"><i class="fa-solid fa-arrows-rotate"></i></button></a>
+                    </caption>
+                    <thead class="table-dark">
+                      <tr>
+                        <th >Date</th>
+                        <th >Name</th>
+                        <th >Phone Number</th>
+                        <th class="text-center" >Email</th>
+                        <th >Device</th>
+                        <th >Model no.</th>
+                        <th >Type of Inquiry</th>
+                        <th >Message</th>
+                        <th class="text-center">Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">01/01/23</th>
+                        <td>Mark Otto</td>
+                        <td>+639123456789</td>
+                        <td>ottomark@gmail.com</td>
+                        <td>Xiaomi 13 Ultra</td>
+                        <td>3520000001</td>
+                        <td>Mother Board Level</td>
+                        <td>My Phone went black</td>
+                        <td>
+                            <button class="btn btn-success" onclick="alert('Repair Process Completed')"><i class="fa-solid fa-square-check"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">02/11/23</th>
+                        <td>Many Marquez</td>
+                        <td>+639123456789</td>
+                        <td>manny101@yahoo.com</td>
+                        <td>Lenovo Ideapad</td>
+                        <td>3820000002</td>
+                        <td>Battery</td>
+                        <td>My Laptop is not charging</td>
+                        <td>
+                            <button class="btn btn-success" onclick="alert('Repair Process Completed')"><i class="fa-solid fa-square-check"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">02/15/23</th>
+                        <td>Mckinley Manaog</td>
+                        <td>+639123456789</td>
+                        <td>kinkin18@gmail.com</td>
+                        <td>HP Deskjet</td>
+                        <td>3520000001</td>
+                        <td>Printer Head</td>
+                        <td>No magenta color detected</td>
+                        <td>
+                            <button class="btn btn-success" onclick="alert('Repair Process Completed')"><i class="fa-solid fa-square-check"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">01/01/23</th>
+                        <td>Mark Otto</td>
+                        <td>+639123456789</td>
+                        <td>ottomark@gmail.com</td>
+                        <td>Xiaomi 13 Ultra</td>
+                        <td>3520000001</td>
+                        <td>Mother Board Level</td>
+                        <td>My Phone went black</td>
+                        <td>
+                            <button class="btn btn-success" onclick="alert('Repair Process Completed')"><i class="fa-solid fa-square-check"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">03/08/23</th>
+                        <td>Lucas Ibañez</td>
+                        <td>+639123456789</td>
+                        <td>lucas102@gmail.com</td>
+                        <td>Acer Aspire 7</td>
+                        <td>3520000001</td>
+                        <td>Operating System</td>
+                        <td>Upgrade my laptop to Windows 11</td>
+                        <td>
+                            <button class="btn btn-success" onclick="alert('Repair Process Completed')"><i class="fa-solid fa-square-check"></i></button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+            
+        </div>
+
+    </div>
+</body>
+</html>
